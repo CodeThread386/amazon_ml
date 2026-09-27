@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+__MACOSX/
+
+# Data and generated artifacts (large)
+student_resource/dataset/
+student_resource/work/
+student_resource/output/
+*.parquet
+*.lgb
+*.log
+
+# Editors
+.vscode/
+.idea/
